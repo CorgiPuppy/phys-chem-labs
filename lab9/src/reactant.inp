@@ -1,0 +1,15 @@
+! BLYP D3BJ DEF2-TZVP RIJCOSX DEF2-TZVP Opt NumFreq xyzfile
+
+%pal
+nprocs 6
+end
+
+%geom
+NumHess 78.4
+end
+
+%Freq
+Temp 298.15
+end
+
+*xyzfile 0 1 acetamide.xyz
